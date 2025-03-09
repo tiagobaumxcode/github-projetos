@@ -1,6 +1,8 @@
 <?php
 
-use WASHPETBAUM\Modelos\Telefone;
+namespace WASHPETBAUM\src\Modelos\Telefone;
+
+
 
 class Telefone{
     private string $ddd;
