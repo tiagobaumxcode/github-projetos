@@ -1,11 +1,13 @@
 <?php
 
+use WASHPETBAUM\Modelos\CPF;
+
 
 class Pessoa {
      private string $nome;
-     private string $cpf;
+     private CPF $cpf;
      
-     public function __construct(string $nome, string $cpf) {
+     public function __construct(string $nome, CPF $cpf) {
         $this->nome = $nome;    
         $this->cpf = $cpf;
 
