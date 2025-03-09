@@ -1,5 +1,8 @@
 <?php
 
+
+namespace WASHPETBAUM\Modelos\Pessoa;
+
 use WASHPETBAUM\Modelos\CPF;
 
 

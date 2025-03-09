@@ -2,6 +2,10 @@
 
 use WASHPETBAUM\Modelos\Endereco;
 use WASHPETBAUM\Modelos\CPF;
+use WASHPETBAUM\Modelos\Pessoa;
+
+namespace WASHPETBAUM\Modelos\Cliente;
+
 
 
 class Cliente extends Pessoa {
